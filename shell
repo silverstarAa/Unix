@@ -1,0 +1,25 @@
+## Unix 명령어
+(1) system에서 제공 = utility 명령어
+(2) shell에서 제공
+
+
+## shell
+: user와 kernel 사이의 중간 역할
+
+# shell 종류 확인 방법
+: cat /etc/passwd
+: grep userID /etc/passwd
+: echo $SHELL
+
+# bash shell 버전 확인
+: bash --version
+
+# shell 종료
+: exit
+: ctrl + D
+
+
+## shell 특수 문자 사용
+# *
+: 임의의 문자열을 나타내는데 사용
+ex) ls *.*

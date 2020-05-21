@@ -37,13 +37,3 @@ ex) cd ~
 
 # \ 
 : 특수 문자를 일반 문자처럼 사용하도록 함
-
-# <, >
-: 표준 입출력 장치 변경
-: ex) cat > file1
-: > // 새로운 파일을 생성 or 기존 파일에 덮어 쓰기
-: >> // 기존 파일에 이어서 쓰기
-ex) ls . tempTT > ls.out 2>&1
-
-# set –o noclobber <> set –o noclobber
-: overwrite 막기

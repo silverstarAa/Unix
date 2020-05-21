@@ -43,6 +43,7 @@ ex) cd ~
 : ex) cat > file1
 : > // 새로운 파일을 생성 or 기존 파일에 덮어 쓰기
 : >> // 기존 파일에 이어서 쓰기
+ex) ls . tempTT > ls.out 2>&1
 
 # set –o noclobber <> set –o noclobber
 : overwrite 막기

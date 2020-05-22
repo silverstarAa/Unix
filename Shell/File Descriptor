@@ -12,4 +12,4 @@ ex) cat > file1
 ex) ls . tempTT > ls.out 2>&1
 
 # overwrite 설정
-ex) set –o noclobber <> set –o noclobber
+ex) set –o noclobber <> set +o noclobber
